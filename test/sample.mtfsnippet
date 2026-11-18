@@ -1,0 +1,11 @@
+// plain comment
+// INFO Circular pipe, conduit or duct
+// PARAMETER  LAYER     TEXT        "Layer name prefix"   "PIPE"
+// PARAMETER  STRMODEL  MODEL_CREATE "Strings model"      OPTIONAL
+// DISPLAY    ROUT
+@ def_tok NQM $(NQ)
+@ if_val_gt_dbl "$(RIN)" 0
+  insert "$(LAYER)O>>T0" "$(COLOUR)" $(DX) ( $(DZ) + $(ROUT) ) unknown $(_STD_CHS) $(_ASE)
+@ else
+  width "kerb" 103 203.0 0.0 -3.0 absolute linear // trailing note
+@ end_if

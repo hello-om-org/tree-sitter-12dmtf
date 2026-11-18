@@ -1,0 +1,11 @@
+{
+  "grammars": [
+    { "name": "om_12dmtf", "camelcase": "Om12dmtf", "scope": "source.om_12dmtf", "path": ".", "file-types": ["mtf", "mtfsnippet", "bf", "mtf_seed"] }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "tree-sitter grammar for 12d MTF files, boxing files and MTF snippets",
+    "authors": [{ "name": "The Opinionated Modeller" }]
+  }
+}

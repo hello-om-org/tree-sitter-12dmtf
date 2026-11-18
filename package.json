@@ -1,0 +1,7 @@
+{
+  "name": "tree-sitter-12dmtf",
+  "version": "0.0.1",
+  "description": "tree-sitter grammar for 12d MTF files (.mtf), boxing files (.bf) and MTF snippets (.mtfsnippet)",
+  "license": "MIT",
+  "devDependencies": { "tree-sitter-cli": "0.25.10" }
+}
